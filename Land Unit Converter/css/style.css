@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h1{
+    color: #22b9a8;
+}
+input[type="text"]{
+    background-color: white;
+    color: #22b9a8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+input[type="number"]{
+    border: 2px solid #22b9a8;
+    color: #22b9a8;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+}
+select{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #22b9a8;
+    border: #22b9a8 2px solid;
+    background-color: white;
+    
+}
+.i{
+    background-color: #22b9a8;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: max-content;
+    text-align: center;
+}
+label{
+    color: white;
+    font-weight: bold;
+}
+.center{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    padding: auto;
+}
+.border{
+    border: #22b9a8 2px solid;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: small;
+    font-family:sans-serif;
+    color: rgb(150, 147, 147);
+}
+@media (max-width:600px){
+.border{
+    display: flex;
+    border: #22b9a8 2px solid;
+    padding: 15px 10px ;
+    border-radius: 5px;
+    text-align: center;
+    flex-direction: column;
+
+}
+input[type="text"]{
+    background-color: white;
+    color: #22b9a8;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 150px;
+}
+input[type="number"]{
+    border: 2px solid #22b9a8;
+    color: #22b9a8;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+}
+select{
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #22b9a8;
+    border: #22b9a8 2px solid;
+    width: 50%;
+    background-color: white;
+}
+.inline{
+    display: flex;
+    justify-content: center;
+}
+.i{
+    display: flex;
+    background-color: #22b9a8;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+p{
+    text-align: center;
+    font-size: small;
+    font-family:sans-serif;
+    color: rgb(150, 147, 147);
+}
+}
