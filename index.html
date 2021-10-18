@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Land Unit Converter</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <body>
+        <div class="center">
+            <div>
+                <h1>Land Unit Converter</h1>
+            </div>
+            <div class="border">
+                <div class="inline">
+                    <input type="number" name="user_value" id="value" placeholder="enter value..." onchange="change()" oninput="this.onchange()" onkeypress="this.onchange();" onpaste="this.onchange();">
+                    <select id="sel" onchange="change()">
+                        <option>Are</option>
+                        <option>Acre</option>
+                        <option>Square metre</option>
+                        <option>Square feet</option>
+                        <option>Guntha</option>
+                    </select><br><br>
+                </div>
+                <div class="i" id="a">
+                    <label>Are= </label><input type="text" id="o1" name="r" disabled><br>
+                </div>
+                <div class="i" id="b">
+                    <label>Acre= </label><input type="text" id="o2" name="r" disabled><br>
+                </div>
+                <div class="i" id="c">
+                    <label>Square metre= </label><input type="text" id="o3" name="r" disabled><br>
+                </div>
+                <div class="i" id="d">
+                    <label>Square feet= </label><input type="text" id="o4" name="r" disabled><br>
+                </div>
+                <div class="i" id="e">
+                    <label>Guntha= </label><input type="text" id="o5" name="r" disabled><br>
+                </div>
+                <p>Developed by Umendra Pardhi</p>
+            </div>
+        </div>
+
+       <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
